@@ -27,8 +27,9 @@ Certifique-se de ter conhecimento básico e a instalação das seguintes ferrame
 
 ### Apache Spark
 
-Apache Spark é um framework para processamento de dados em larga escala que permite computação distribuída. Neste
-ambiente, o cluster contém um Master e dois Workers.
+Apache Spark é um framework para processamento de dados em larga escala, projetado para ser rápido, fácil de usar e
+versátil. Ele é amplamente utilizado para processamento de dados em tempo real e em lote, oferecendo uma ampla gama de
+bibliotecas para diferentes aplicações, como aprendizado de máquina, processamento de gráficos e análise de dados.
 
 **Spark Master**:
 
@@ -42,8 +43,9 @@ ambiente, o cluster contém um Master e dois Workers.
 
 ### MinIO
 
-MinIO é um serviço de armazenamento de objetos compatível com o Amazon S3, permitindo armazenar e recuperar dados de
-forma eficiente.
+MinIO é uma solução de armazenamento de objetos de alto desempenho, compatível com a API do Amazon S3, projetada para
+ambientes locais e em nuvem. Ele é amplamente utilizado em arquiteturas de dados modernas devido à sua escalabilidade,
+flexibilidade e simplicidade.
 
 - **Interface Web**: `http://172.20.0.5:9000`
 - **Credenciais padrão**:
@@ -52,8 +54,10 @@ forma eficiente.
 
 #### Delta Lake
 
-Delta Lake permite transações ACID no Apache Spark e fornece versionamento dos dados. Ele é integrado ao cluster Spark
-neste ambiente para fornecer um sistema de armazenamento de dados otimizado para análises.
+Delta Lake é uma camada de armazenamento de código aberto que oferece confiabilidade e desempenho aprimorados para data
+lakes, permitindo a criação de arquiteturas **lakehouse**. Ele é projetado para adicionar funcionalidade ACID (
+atomicidade, consistência, isolamento e durabilidade) e gestão de transações e arquivos armazenados em formatos abertos,
+como parquet. É integrado com Apache Spark e fornece um sistema de armazenamento de dados otimizado para análises.
 
 ## Instalação
 
