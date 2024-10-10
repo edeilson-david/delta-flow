@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deltaflow"
+version = "0.1.0"
+description = "Ambiente de estudo com Apache Spark, MinIO e Delta Lake provisionado e gerenciado com Docker Compose."
+authors = ["Edeilson David <edeilson.david@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{ include = "deltaflow" }]
+
+[tool.poetry.dependencies]
+python = "3.11"
+pyspark = "3.5.1"
+minio = "7.2.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
